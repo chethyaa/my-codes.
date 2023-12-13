@@ -5,10 +5,10 @@ int main()
 {
 	char input[20];
 	system("shutdown -s -t 60");
-	printf("ÇëÊäÈë£ºÎÒÊÇÖí ¡£·ñÔòÄúµÄµçÄÔ½«ÔÚÒ»·ÖÖÓºó¹Ø»ú¡£\n");
+	printf("è¯·è¾“å…¥ï¼šæˆ‘æ˜¯çŒª ã€‚å¦åˆ™æ‚¨çš„ç”µè„‘å°†åœ¨ä¸€åˆ†é’Ÿåå…³æœºã€‚\n");
 	again:
 	 scanf("%s",input);
-	 if(strcmp(input,"ÎÒÊÇÖí")==0)
+	 if(strcmp(input,"æˆ‘æ˜¯çŒª")==0)
 	 {
 	 	system("shutdown -a");
 	 } 
