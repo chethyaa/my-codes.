@@ -11,14 +11,14 @@ int gcd(int x,int y)
 int main()
 {
 	int fz,fm,ys,thegcd;
-	printf("Çë·Ö±ğÊäÈëĞèÒª»¯¼òµÄ·ÖÊıµÄ·ÖÄ¸ºÍ·Ö×Ó£º\n"); 
+	printf("è¯·åˆ†åˆ«è¾“å…¥éœ€è¦åŒ–ç®€çš„åˆ†æ•°çš„åˆ†æ¯å’Œåˆ†å­ï¼š\n"); 
 	scanf("%d%d",&fm,&fz);
 	if(gcd(fm,fz)==1)
-	    printf("¸Ã·ÖÊıÒÑÊÇ×î¼òĞÎÊ½¡£");
+	    printf("è¯¥åˆ†æ•°å·²æ˜¯æœ€ç®€å½¢å¼ã€‚");
 	else
 	{
 		thegcd=gcd(fm,fz);
-		printf("×î¼òĞÎÊ½Îª:%d/%d",fz/thegcd,fm/thegcd);
+		printf("æœ€ç®€å½¢å¼ä¸º:%d/%d",fz/thegcd,fm/thegcd);
 	} 
 	return 0;
 } 
