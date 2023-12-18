@@ -10,11 +10,11 @@ int main()
 		a[i]=rand()%100+1;
 		b[i]=rand()%100+1;
 	}
-	printf("数组a为：\n");
+	printf("鏁扮粍a涓猴細\n");
 	for(i=0;i<10;i++)
 	    printf("%d ",a[i]);
 	printf("\n");
-	printf("数组b为：\n");
+	printf("鏁扮粍b涓猴細\n");
 	for(i=0;i<10;i++)
 	    printf("%d ",b[i]);
 	printf("\n");
@@ -34,11 +34,11 @@ int main()
 				b[i]=b[j];
 				b[j]=m;	
 			}
-	printf("排序后的数组a为：\n");
+	printf("鎺掑簭鍚庣殑鏁扮粍a涓猴細\n");
 	for(i=0;i<10;i++)
 	    printf("%d ",a[i]);
 	printf("\n");
-	printf("排序后的数组b为：\n");
+	printf("鎺掑簭鍚庣殑鏁扮粍b涓猴細\n");
 	for(i=0;i<10;i++)
 	    printf("%d ",b[i]);
 	printf("\n");
@@ -55,7 +55,7 @@ int main()
 				c[i]=c[j];
 				c[j]=m;	
 			}
-	printf("将数组a和数组b整合后排序得到的数组c为：\n");
+	printf("灏嗘暟缁刟鍜屾暟缁刡鏁村悎鍚庢帓搴忓緱鍒扮殑鏁扮粍c涓猴細\n");
 	for(i=0;i<20;i++)
 	    printf("%d ",c[i]);
 	return 0;
