@@ -16,10 +16,10 @@ int main()
 		for(j=0;j<i;j++)
 		{
 			if(a[j]>a[j+1])
-		    {
-		    	m=a[j];
-		    	a[j]=a[j+1];
-		    	a[j+1]=m;
+		        {
+		    	    m=a[j];
+		    	    a[j]=a[j+1];
+		    	    a[j+1]=m;
 			}
 		}
 	}
