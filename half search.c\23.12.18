@@ -17,7 +17,7 @@ int main()
 	printf("\n");
 	for(i=0;i<10;i++)
 		printf("%d ",a[i]);
-	printf("\nÇëÊäÈëÄúÒª²éÕÒµÄÊı×Ö£º");
+	printf("\nè¯·è¾“å…¥æ‚¨è¦æŸ¥æ‰¾çš„æ•°å­—ï¼š");
 	scanf("%d",&n); 
 	left=0;
 	right=9;
@@ -28,17 +28,17 @@ int main()
 		{
 		    right=mid-1;
 		    mid=(left+right)/2;
-	    }
+	        }
 		else if(n>a[mid])
 		{
 		    left=mid+1;
 		    mid=(left+right)/2;
-	    }
+	        }
 		else
 		{
-	        printf("ÄúÒª²éÕÒµÄÊı×ÖÔÚµÚ%d¸ö¡£",mid);
+	        printf("æ‚¨è¦æŸ¥æ‰¾çš„æ•°å­—åœ¨ç¬¬%dä¸ªã€‚",mid);
 			left=right+1;
-	    }
+	        }
 	}
 	return 0;
 }
