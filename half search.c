@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<time.h>
+#include<stdlib.h>
 int main()
 {
 	int i,j,a[10],x,n,mid,left,right;
